@@ -1,7 +1,7 @@
 variable "region" {
   description = "Azure infrastructure region"
   type    = string
-  default = "us-east"
+  default = "eastus"
 }
 
 variable "app" {
