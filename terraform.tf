@@ -1,5 +1,5 @@
 terraform {
-    cloud {
+  cloud {
     organization = "ACME_DEMO_01"
 
     workspaces {
