@@ -14,3 +14,8 @@ variable "project" {
   description = "The project name"
   default     = "mtn_project"
 }
+
+variable "backendport" {
+  description = "The exposed container port... Mtn app is 5001"
+  default     = 5001
+}
