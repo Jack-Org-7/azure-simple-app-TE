@@ -12,7 +12,7 @@ variable "app" {
 
 variable "project" {
   description = "The project name"
-  default     = "mtn_project"
+  default     = "mtn-project"
 }
 
 variable "backendport" {

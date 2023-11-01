@@ -11,8 +11,8 @@ resource "azurerm_resource_group" "backend" {
 }
 
 resource "azurerm_log_analytics_workspace" "mtn_app_la" {
-  name                = "log-${var.project}"
-  location            = azurerm_resource_group.my_first_app.location
-  resource_group_name = azurerm_resource_group.my_first_app.name
+  name                = "log-shared-log-analytics"
+  location            = azurerm_resource_group.shared.location
+  resource_group_name = azurerm_resource_group.shared.name
 
 }
